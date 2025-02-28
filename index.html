@@ -6,7 +6,17 @@
     <title> DevBoard </title>
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body
+    {
+        font-family: "Poppins", sans-serif;
+    }
+
+    </style>
 
 </head>
 <body>
@@ -43,8 +53,133 @@
     </div>
 
     <!-- hero section -->
-    <section>
+    <section class="grid grid-cols-1 md:grid-cols-4">
 
+        <div class=" col-span-3">
+
+            <div class=" grid grid-cols-1 md:grid-cols-4">
+
+                <div class=" col-span-1">
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="./assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p>Task Assigned</p>
+                            <h1> 05</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-span-2">
+
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="./assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p>Task Assigned</p>
+                            <h1> 05</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <div class="flex items-center gap-2">
+                        <div>
+                            <img src="./assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p>Task Assigned</p>
+                            <h1> 05</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="flex flex-wrap md:flex-nowrap">
+                <div class="card card-dash bg-base-100 w-96">
+                    <div class="card-body">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="card card-dash bg-base-100 w-96">
+                    <div class="card-body">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="card-actions justify-end">
+                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="card card-dash bg-base-100 w-96">
+                    <div class="card-body">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="card-actions justify-end">
+                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="flex flex-wrap md:flex-nowrap">
+                <div class="card card-dash bg-base-100 w-96">
+                    <div class="card-body">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="card card-dash bg-base-100 w-96">
+                    <div class="card-body">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="card-actions justify-end">
+                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="card card-dash bg-base-100 w-96">
+                    <div class="card-body">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="card-actions justify-end">
+                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            
+
+        </div>
+
+        <div class="col-span-1">
+            <div class="card card-dash bg-base-100 w-96">
+                <div class="card-body">
+                  <h2 class="card-title">Card Title</h2>
+                  <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                  <div class="card-actions justify-end">
+                    <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
     </section>
 
 
