@@ -171,10 +171,6 @@ document.getElementById("complete-task5").addEventListener("click", function(){
     alert ("Board Updated Successfully")
 })
 
-const MyDate = new Date()
-const newtag = MyDate.createElement("div");
-newtag.classList.add("myclass")
 
-const date = document.getElementById("mydate").innerHTML= newtag ;
 
 
