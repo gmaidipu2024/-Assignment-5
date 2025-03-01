@@ -38,7 +38,7 @@
                     <div>
                         <img src="./assets/checkbox.png" alt="">    
                     </div>
-                    <h2 class="text-3xl font-semibold"> 23</h2>
+                    <h2 id="countTask2" class="text-3xl font-semibold"> 23</h2>
                 </div>
            
               <div class="w-10 rounded-full">
@@ -66,13 +66,13 @@
                         </div>
                         <div>
                             <p>Task Assigned</p>
-                            <h1> 05</h1>
+                            <span id="countTask"> 05 </span>
                         </div>
                     </div>
 
                 </div>
 
-                <button id="discover" class="col-span-2 w-full grid justify-items-center bg-[#3752FD] ">
+                <button  id="discover" class="col-span-2 cursor-pointer w-full grid justify-items-center bg-[#3752FD] ">
 
                     <div class="flex items-center gap-2">
                         <div>
@@ -111,7 +111,7 @@
                             <p>Dateline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                        <button  id="complete-task" class=" bg-[#3752FD] text-white rounded-md px-4 py-3 cursor-pointer ">Completed </button>
                       </div>
                     </div>
                   </div>
@@ -125,7 +125,7 @@
                             <p>Dateline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                        <button  class=" bg-[#3752FD] text-white rounded-md px-4 py-3 complete-task">Completed </button>
                       </div>
                     </div>
                   </div>
@@ -140,7 +140,7 @@
                             <p>Dateline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                        <button  class=" bg-[#3752FD] text-white rounded-md px-4 py-3 complete-task">Completed </button>
                       </div>
                     </div>
                   </div>
@@ -157,7 +157,7 @@
                             <p>Dateline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                        <button  class=" bg-[#3752FD] text-white rounded-md px-4 py-3 complete-task">Completed </button>
                       </div>
                     </div>
                   </div>
@@ -171,7 +171,7 @@
                             <p>Dateline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                        <button  class=" bg-[#3752FD] text-white rounded-md px-4 py-3 complete-task">Completed </button>
                       </div>
                     </div>
                   </div>
@@ -186,7 +186,9 @@
                             <p>Dateline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                        <button  class=" bg-[#3752FD] text-white rounded-md px-4 py-3 complete-task">Completed </button>
+
+                        
                       </div>
                     </div>
                   </div>
@@ -195,13 +197,21 @@
             
         </div>
 
-        <div class="col-span-1 row-span-2  bg-white">
+        <div id="pushData" class=" col-span-1 row-span-2 rounded-lg mb-6 bg-white justify-items-center ml-10 md:ml-0  w-full ">
             <div class="card card-dash bg-base-100 ">
                 <div class="card-body">
-                  <h2 class="card-title">Card Title</h2>
-                  <p></p>
+                  <h2 class="card-title">Activity Logs</h2>
+                  <button id="history-clear" class=" bg-[#3752FD] text-white cursor-pointer  rounded-md px-4 py-3"> Clear History </button>
+                  
                   <div class="card-actions ">
-                    <button class=" bg-[#3752FD] text-white rounded-md px-4 py-3">Completed </button>
+                    
+
+                    <div id="hide-Sction">
+                      <p class="bg-white text-gray-400 p-4 rounded-lg">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+
+                      <p class="bg-white text-gray-400 p-4 rounded-lg">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    </div>
+
                   </div>
                 </div>
               </div>
