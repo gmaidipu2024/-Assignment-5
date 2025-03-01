@@ -172,7 +172,9 @@ document.getElementById("complete-task5").addEventListener("click", function(){
 })
 
 const MyDate = new Date()
-MyDate.createElement("p");
+const newtag = MyDate.createElement("div");
+newtag.classList.add("myclass")
 
-const date = document.getElementById("mydate").innerText = MyDate
+const date = document.getElementById("mydate").innerHTML= newtag ;
+
 
