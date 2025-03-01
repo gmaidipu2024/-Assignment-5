@@ -27,6 +27,14 @@ document.getElementById("complete-task").addEventListener("click", function(){
     const setDisable = document.getElementById("complete-task")
     setDisable.setAttribute("disabled", true);
 
+    const dates = new Date();
+    
+    const createelement = document.createElement("p");
+
+    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    `
+    document.getElementById("tagAdd").innerText = myText;
+
     alert ("Board Updated Successfully")
 })
 
@@ -45,6 +53,16 @@ document.getElementById("complete-task1").addEventListener("click", function(){
     const setDisable = document.getElementById("complete-task1")
     setDisable.setAttribute("disabled", true);
     
+    
+    const dates = new Date();
+    
+    const createelement = document.createElement("p");
+
+    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    `
+    document.getElementById("tagAdd").innerText = myText;
+    
+    
     alert ("Board Updated Successfully")
 })
 
@@ -62,6 +80,14 @@ document.getElementById("complete-task2").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task2")
     setDisable.setAttribute("disabled", true);
+
+    const dates = new Date();
+    
+    const createelement = document.createElement("p");
+
+    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    `
+    document.getElementById("tagAdd").innerText = myText;
     
     alert ("Board Updated Successfully")
 })
@@ -81,6 +107,14 @@ document.getElementById("complete-task3").addEventListener("click", function(){
     const setDisable = document.getElementById("complete-task3")
     setDisable.setAttribute("disabled", true);
     
+    const dates = new Date();
+    
+    const createelement = document.createElement("p");
+
+    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    `
+    document.getElementById("tagAdd").innerText = myText;
+    
     alert ("Board Updated Successfully")
 })
 
@@ -99,6 +133,14 @@ document.getElementById("complete-task4").addEventListener("click", function(){
     const setDisable = document.getElementById("complete-task4")
     setDisable.setAttribute("disabled", true);
     
+    const dates = new Date();
+    
+    const createelement = document.createElement("p");
+
+    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    `
+    document.getElementById("tagAdd").innerText = myText;
+    
     alert ("Board Updated Successfully")
 })
 
@@ -116,6 +158,17 @@ document.getElementById("complete-task5").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task5")
     setDisable.setAttribute("disabled", true);
+
     
-    alert ("Board Updated Successfully")
+    const dates = new Date();
+    
+    const createelement = document.createElement("p");
+
+    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    `
+    document.getElementById("tagAdd").innerText = myText;
+    
+    
+
+    // alert ("Board Updated Successfully")
 })
