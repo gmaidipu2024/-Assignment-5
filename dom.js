@@ -58,7 +58,7 @@ document.getElementById("complete-task1").addEventListener("click", function(){
     
     const createelement = document.createElement("p");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    const myText= createelement.innerText = ` You have Completed  ${ "Add Pay Success Modal"} at ${dates.toLocaleTimeString()} 
     `
     document.getElementById("tagAdd").innerText = myText;
     
@@ -85,7 +85,7 @@ document.getElementById("complete-task2").addEventListener("click", function(){
     
     const createelement = document.createElement("p");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    const myText= createelement.innerText = ` You have Completed  ${ "Add New Reaction"} at ${dates.toLocaleTimeString()} 
     `
     document.getElementById("tagAdd").innerText = myText;
     
@@ -111,7 +111,7 @@ document.getElementById("complete-task3").addEventListener("click", function(){
     
     const createelement = document.createElement("p");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    const myText= createelement.innerText = ` You have Completed  ${ "Fix Video Loading Issue"} at ${dates.toLocaleTimeString()} 
     `
     document.getElementById("tagAdd").innerText = myText;
     
@@ -137,7 +137,7 @@ document.getElementById("complete-task4").addEventListener("click", function(){
     
     const createelement = document.createElement("p");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    const myText= createelement.innerText = ` You have Completed  ${ "Integrate AI Search"} at ${dates.toLocaleTimeString()} 
     `
     document.getElementById("tagAdd").innerText = myText;
     
@@ -159,16 +159,20 @@ document.getElementById("complete-task5").addEventListener("click", function(){
     const setDisable = document.getElementById("complete-task5")
     setDisable.setAttribute("disabled", true);
 
-    
     const dates = new Date();
-    
     const createelement = document.createElement("p");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    const myText= createelement.innerText = ` You have Completed  ${ "Review Ami Probashi site"} at ${dates.toLocaleTimeString()} 
     `
     document.getElementById("tagAdd").innerText = myText;
     
     
 
-    // alert ("Board Updated Successfully")
+    alert ("Board Updated Successfully")
 })
+
+const MyDate = new Date()
+MyDate.createElement("p");
+
+const date = document.getElementById("mydate").innerText = MyDate
+
