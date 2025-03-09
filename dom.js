@@ -14,6 +14,7 @@ document.getElementById("history-clear").addEventListener("click", function(){
 });
 
 
+
 document.getElementById("complete-task").addEventListener("click", function(){
 
     const countTask = document.getElementById("countTask").innerText;
@@ -28,6 +29,10 @@ document.getElementById("complete-task").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task")
     setDisable.setAttribute("disabled", true);
+    if(setDisable){
+        setDisable.style.background= "gray";
+       
+    }
 
     const dates = new Date();
     
@@ -58,7 +63,10 @@ document.getElementById("complete-task1").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task1")
     setDisable.setAttribute("disabled", true);
-    
+    if(setDisable){
+        setDisable.style.background= "gray";
+       
+    }
     
     const dates = new Date();
     
@@ -89,6 +97,10 @@ document.getElementById("complete-task2").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task2")
     setDisable.setAttribute("disabled", true);
+    if(setDisable){
+        setDisable.style.background= "gray";
+       
+    }
 
     const dates = new Date();
     
@@ -98,7 +110,7 @@ document.getElementById("complete-task2").addEventListener("click", function(){
     `
     const myOutput = document.getElementById("tagAdd");
 
-    createElement.style.margin= "10px";
+    createElement.style.margin= "8px";
 
     myOutput.appendChild(createElement);
     
@@ -119,6 +131,10 @@ document.getElementById("complete-task3").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task3")
     setDisable.setAttribute("disabled", true);
+    if(setDisable){
+        setDisable.style.background= "gray";
+       
+    }
         
     const dates = new Date();
     
@@ -149,6 +165,10 @@ document.getElementById("complete-task4").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task4")
     setDisable.setAttribute("disabled", true);
+    if(setDisable){
+        setDisable.style.background= "gray";
+       
+    }
     
     const dates = new Date();
     
@@ -179,6 +199,10 @@ document.getElementById("complete-task5").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task5")
     setDisable.setAttribute("disabled", true);
+    if(setDisable){
+        setDisable.style.background= "gray";
+       
+    }
 
     const dates = new Date();
     
@@ -197,6 +221,19 @@ document.getElementById("complete-task5").addEventListener("click", function(){
 
    
 })
+
+
+
+let myTime = document.getElementById("mytime");
+
+setInterval(() => {
+    const time = new Date();
+    myTime.innerHTML=time.getDay();
+    myTime.innerHTML=time.toLocaleTimeString();
+    
+}, 1000);
+
+
 
 
 
