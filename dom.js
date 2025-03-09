@@ -5,7 +5,9 @@ document.getElementById("discover").addEventListener("click", function(){
 });
 
 document.getElementById("history-clear").addEventListener("click", function(){
+    
     const hideHistory = document.getElementById("hide-Sction");
+
     if(hideHistory){
         document.getElementById("hide-Sction").style.display = "none"
     }
@@ -29,12 +31,16 @@ document.getElementById("complete-task").addEventListener("click", function(){
 
     const dates = new Date();
     
-    const createelement = document.createElement("p");
+    const createElement = document.createElement("p");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
+    createElement.innerText = ` You have Completed  ${ "Fix Mobile Button Issue"} at ${dates.toLocaleTimeString()} 
     `
-    document.getElementById("tagAdd").innerText = myText;
+    const myOutput = document.getElementById("tagAdd");
 
+    createElement.style.margin= "10px";
+
+    myOutput.appendChild(createElement);
+    
     alert ("Board Updated Successfully")
 })
 
@@ -56,12 +62,15 @@ document.getElementById("complete-task1").addEventListener("click", function(){
     
     const dates = new Date();
     
-    const createelement = document.createElement("p");
+    const createElement = document.createElement("pdiv");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Add Pay Success Modal"} at ${dates.toLocaleTimeString()} 
+    createElement.innerText = ` You have Completed  ${ "Add Pay Success Modal"} at ${dates.toLocaleTimeString()} 
     `
-    document.getElementById("tagAdd").innerText = myText;
-    
+    const myOutput = document.getElementById("tagAdd");
+
+    createElement.style.margin= "10px";
+
+    myOutput.appendChild(createElement);
     
     alert ("Board Updated Successfully")
 })
@@ -83,11 +92,15 @@ document.getElementById("complete-task2").addEventListener("click", function(){
 
     const dates = new Date();
     
-    const createelement = document.createElement("p");
+    const createElement = document.createElement("div");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Add New Reaction"} at ${dates.toLocaleTimeString()} 
+    createElement.innerText = ` You have Completed  ${ "Add New Reaction"} at ${dates.toLocaleTimeString()} 
     `
-    document.getElementById("tagAdd").innerText = myText;
+    const myOutput = document.getElementById("tagAdd");
+
+    createElement.style.margin= "10px";
+
+    myOutput.appendChild(createElement);
     
     alert ("Board Updated Successfully")
 })
@@ -106,14 +119,18 @@ document.getElementById("complete-task3").addEventListener("click", function(){
     
     const setDisable = document.getElementById("complete-task3")
     setDisable.setAttribute("disabled", true);
-    
+        
     const dates = new Date();
     
-    const createelement = document.createElement("p");
+    const createElement = document.createElement("div");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Fix Video Loading Issue"} at ${dates.toLocaleTimeString()} 
+    createElement.innerText = ` You have Completed  ${ "Fix Video Loading Issue"} at ${dates.toLocaleTimeString()} 
     `
-    document.getElementById("tagAdd").innerText = myText;
+    createElement.style.margin= "10px"
+
+    const myOutput = document.getElementById("tagAdd");
+    
+    myOutput.appendChild(createElement);
     
     alert ("Board Updated Successfully")
 })
@@ -135,11 +152,15 @@ document.getElementById("complete-task4").addEventListener("click", function(){
     
     const dates = new Date();
     
-    const createelement = document.createElement("p");
+    const createElement = document.createElement("div");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Integrate AI Search"} at ${dates.toLocaleTimeString()} 
+    createElement.innerText = ` You have Completed  ${ "Add Pay Success Modal"} at ${dates.toLocaleTimeString()} 
     `
-    document.getElementById("tagAdd").innerText = myText;
+    const myOutput = document.getElementById("tagAdd");
+
+     createElement.style.margin= "10px";
+
+    myOutput.appendChild(createElement);
     
     alert ("Board Updated Successfully")
 })
@@ -160,15 +181,21 @@ document.getElementById("complete-task5").addEventListener("click", function(){
     setDisable.setAttribute("disabled", true);
 
     const dates = new Date();
-    const createelement = document.createElement("p");
+    
+    const createElement = document.createElement("div");
 
-    const myText= createelement.innerText = ` You have Completed  ${ "Review Ami Probashi site"} at ${dates.toLocaleTimeString()} 
+    createElement.innerText = ` You have Completed  ${ "Add New Reaction"} at ${dates.toLocaleTimeString()} 
     `
-    document.getElementById("tagAdd").innerText = myText;
+    const myOutput = document.getElementById("tagAdd");
+
+    createElement.style.margin= "10px";
+
+    myOutput.appendChild(createElement);
     
+    alert ("Board Updated Successfully")
     
 
-    alert ("Board Updated Successfully")
+   
 })
 
 
