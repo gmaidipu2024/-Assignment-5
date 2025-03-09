@@ -228,8 +228,7 @@ let myTime = document.getElementById("mytime");
 
 setInterval(() => {
     const time = new Date();
-    myTime.innerHTML=time.getDay();
-    myTime.innerHTML=time.toLocaleTimeString();
+    myTime.innerHTML = time.toLocaleTimeString();
     
 }, 1000);
 
