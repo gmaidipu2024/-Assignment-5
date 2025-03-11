@@ -201,9 +201,8 @@ document.getElementById("complete-task5").addEventListener("click", function(){
 
 
 
-let myTime = document.getElementById("mytime");
+    let myTime = document.getElementById("mytime");
 
-setInterval(() => {
     const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
     const month = ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sep","Oct","Nov","Dec"];
     const time = new Date();
@@ -211,10 +210,9 @@ setInterval(() => {
     const day = weekday[time.getDay()];
     const mont = month[time.getMonth()];
     const year = time.getFullYear();
-
     myTime.innerHTML = `${day}, ${mont} ${date}, ${year}`;
     
-}, 1000);
+
 
 
 
